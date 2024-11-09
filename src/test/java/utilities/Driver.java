@@ -30,7 +30,7 @@ public class Driver {
                     throw new RuntimeException("Browser type is invalid");
             }
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         }
         return driver;
     }
