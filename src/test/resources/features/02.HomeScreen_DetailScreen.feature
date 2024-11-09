@@ -1,3 +1,4 @@
+@comparison
 Feature: Prices of the product
 
   Scenario: Verify product price consistency between home screen and details screen
